@@ -1,0 +1,28 @@
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="tic.css">
+</head>
+<body onload="startGame()">
+    <h1><font color = "black" class= "text"> Tic-Tac-Toe!</font></h1><br>
+    <div id="message" class="text1"> result</div>
+        <table class="shift">
+            <tr>
+                <td id="s1" class="Sqaure" onclick="nextMove(this);"></td>
+                <td id="s2" class="Sqaure" onclick="nextMove(this);"></td>
+                <td id="s3" class="Sqaure" onclick="nextMove(this);"></td>
+            </tr>
+            <tr>
+                <td id="s4" class="Sqaure" onclick="nextMove(this);"></td>
+                <td id="s5" class="Sqaure" onclick="nextMove(this);"></td>
+                <td id="s6"  class="Sqaure" onclick="nextMove(this);"></td>
+            </tr>
+            <tr>
+                <td id="s7" class="Sqaure" onclick="nextMove(this);"></td>
+                <td id="s8" class="Sqaure" onclick="nextMove(this);"></td>
+                <td id="s9" class="Sqaure" onclick="nextMove(this);"></td>
+            </tr>              
+        </table>
+        <button type="button" onclick="startGame()" class="but">Start New Game</button> 
+        <script type="text/javascript" src="tic.js"></script>
+    </body>
+    </html>
